@@ -13,7 +13,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
     console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
     
-    var api_key = "c67cdda8a3b3d972816af03a7a23c4c9";
+    var api_key = "XXXXXXXXXXXXXXXX
     var host = 'https://api.themoviedb.org';
     var language = "es-MX";
     var sort_by = "popularity.desc";
