@@ -1,0 +1,29 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "pelicula_peliculas",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Pelicula",
+      "synonyms": [
+        "Pelicula",
+        "film",
+        "movie",
+        "pelicula"
+      ]
+    },
+    {
+      "value": "Peliculas",
+      "synonyms": [
+        "Peliculas",
+        "films",
+        "movies",
+        "peliculas"
+      ]
+    }
+  ],
+  "id": "e33ec57e-9851-4040-ae83-36e2311956aa",
+  "isOverridable": false
+}

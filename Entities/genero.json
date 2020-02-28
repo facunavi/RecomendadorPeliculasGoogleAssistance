@@ -1,0 +1,178 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "genero",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Action",
+      "synonyms": [
+        "Accion",
+        "Action",
+        "explosiones",
+        "pelea",
+        "persecuciones",
+        "policias"
+      ]
+    },
+    {
+      "value": "Animation",
+      "synonyms": [
+        "Niños",
+        "animacion",
+        "anime",
+        "infantil"
+      ]
+    },
+    {
+      "value": "Comedy",
+      "synonyms": [
+        "chistes",
+        "chistosa",
+        "comedia",
+        "comedy",
+        "humor",
+        "para reir",
+        "risas"
+      ]
+    },
+    {
+      "value": "Crime",
+      "synonyms": [
+        "Crime",
+        "crimen",
+        "detectives",
+        "policia"
+      ]
+    },
+    {
+      "value": "Documentary",
+      "synonyms": [
+        "Documentary",
+        "documental",
+        "documentales"
+      ]
+    },
+    {
+      "value": "Drama",
+      "synonyms": [
+        "Drama",
+        "drama",
+        "novela"
+      ]
+    },
+    {
+      "value": "Family",
+      "synonyms": [
+        "Family",
+        "familia",
+        "familiar",
+        "familiares"
+      ]
+    },
+    {
+      "value": "Fantasy",
+      "synonyms": [
+        "Fantasy",
+        "fantasia",
+        "magia"
+      ]
+    },
+    {
+      "value": "History",
+      "synonyms": [
+        "History",
+        "historia",
+        "medieval"
+      ]
+    },
+    {
+      "value": "Horror",
+      "synonyms": [
+        "Terror",
+        "horror",
+        "miedo",
+        "susto"
+      ]
+    },
+    {
+      "value": "Music",
+      "synonyms": [
+        "Music",
+        "musica",
+        "musicales"
+      ]
+    },
+    {
+      "value": "Mystery",
+      "synonyms": [
+        "Mystery",
+        "misterio"
+      ]
+    },
+    {
+      "value": "Romance",
+      "synonyms": [
+        "Romance",
+        "amor",
+        "romance",
+        "romantica",
+        "romanticas"
+      ]
+    },
+    {
+      "value": "Science Fiction",
+      "synonyms": [
+        "Science Fiction",
+        "ciencia ficcion",
+        "scifi"
+      ]
+    },
+    {
+      "value": "Serie",
+      "synonyms": [
+        "Serie",
+        "seriales",
+        "series"
+      ]
+    },
+    {
+      "value": "Thriller",
+      "synonyms": [
+        "Thriller",
+        "suspenso"
+      ]
+    },
+    {
+      "value": "Todos",
+      "synonyms": [
+        "Todos",
+        "all",
+        "cualquiera",
+        "el que sea",
+        "elije tu",
+        "me da lo mismo"
+      ]
+    },
+    {
+      "value": "War",
+      "synonyms": [
+        "War",
+        "ejercito",
+        "guerra",
+        "militares"
+      ]
+    },
+    {
+      "value": "Western",
+      "synonyms": [
+        "Western",
+        "oeste",
+        "vaqueros"
+      ]
+    }
+  ],
+  "id": "5e9a4948-2e95-4d59-94ac-c2259bac567c",
+  "isOverridable": false
+}

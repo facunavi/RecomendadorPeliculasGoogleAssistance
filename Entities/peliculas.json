@@ -1,0 +1,148 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "peliculas",
+  "automatedExpansion": true,
+  "entries": [
+    {
+      "value": "Bambi",
+      "synonyms": [
+        "Bambi",
+        "bambi"
+      ]
+    },
+    {
+      "value": "Chucky",
+      "synonyms": [
+        "Chucky"
+      ]
+    },
+    {
+      "value": "El Padrino",
+      "synonyms": [
+        "El Padrino"
+      ]
+    },
+    {
+      "value": "El Padrino 2",
+      "synonyms": [
+        "El Padrino 2",
+        "padrino 2",
+        "padrino II"
+      ]
+    },
+    {
+      "value": "El Rey Leon",
+      "synonyms": [
+        "el rey leon",
+        "rey leon"
+      ]
+    },
+    {
+      "value": "El Señor de los Anillos",
+      "synonyms": [
+        "El Señor de los Anillos",
+        "LOTR",
+        "se�or de los anillos"
+      ]
+    },
+    {
+      "value": "El Silencio de los Inocentes",
+      "synonyms": [
+        "El Silencio de los Inocentes",
+        "hannibal",
+        "silencio de los inocentes"
+      ]
+    },
+    {
+      "value": "Intensamente",
+      "synonyms": [
+        "Intensamente"
+      ]
+    },
+    {
+      "value": "Jurassic Park",
+      "synonyms": [
+        "Jurassic Park",
+        "parque jurasico"
+      ]
+    },
+    {
+      "value": "La Bamba",
+      "synonyms": [
+        "La Bamba",
+        "bamba",
+        "la bamba"
+      ]
+    },
+    {
+      "value": "La Isla",
+      "synonyms": [
+        "La Isla",
+        "isla",
+        "the island"
+      ]
+    },
+    {
+      "value": "La Mosca",
+      "synonyms": [
+        "La Mosca",
+        "la mosca"
+      ]
+    },
+    {
+      "value": "Matrix",
+      "synonyms": [
+        "Matrix",
+        "matrix"
+      ]
+    },
+    {
+      "value": "Matrix 2",
+      "synonyms": [
+        "Matrix 2",
+        "matrix 2",
+        "matrix II"
+      ]
+    },
+    {
+      "value": "Memento",
+      "synonyms": [
+        "memento"
+      ]
+    },
+    {
+      "value": "Rocky",
+      "synonyms": [
+        "Rocky",
+        "rocky 1",
+        "rocky I"
+      ]
+    },
+    {
+      "value": "Superman",
+      "synonyms": [
+        "Superman",
+        "superman"
+      ]
+    },
+    {
+      "value": "Titanic",
+      "synonyms": [
+        "Titanic",
+        "el titanic",
+        "titanic"
+      ]
+    },
+    {
+      "value": "Toy Story",
+      "synonyms": [
+        "Toy Story",
+        "toy story"
+      ]
+    }
+  ],
+  "id": "3802ccd3-1ac6-45a6-af70-6671cd0b7e23",
+  "isOverridable": false
+}

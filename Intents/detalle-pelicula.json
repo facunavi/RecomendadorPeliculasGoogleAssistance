@@ -1,0 +1,427 @@
+{
+  "id": "3c83c6a2-4286-45c9-a861-8572cfc0f6e5",
+  "name": "detalle-pelicula",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "58a7ab20-4540-4423-8b16-cc37af281f8e",
+          "required": true,
+          "dataType": "@peliculas",
+          "name": "peliculas",
+          "value": "$peliculas",
+          "prompts": [
+            "Que Película?",
+            "Cual película?",
+            "De que película hablas?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "081309d7-18e3-4ca9-9cf2-54330f0be07f",
+          "required": false,
+          "dataType": "@tipo_detalle",
+          "name": "tipo_detalle",
+          "value": "$tipo_detalle",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d0f449b9-5b25-4c1b-bab2-99f8bae98bdc",
+          "required": false,
+          "dataType": "@pelicula_peliculas",
+          "name": "pelicula_peliculas",
+          "value": "$pelicula_peliculas",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "834ba640-c4eb-4abf-8fd3-d9265479caff",
+      "data": [
+        {
+          "text": "quiero ver ",
+          "userDefined": false
+        },
+        {
+          "text": "Django",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": ", de que se ",
+          "userDefined": false
+        },
+        {
+          "text": "trata",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "38c429bd-718a-4006-9494-b580754190b7",
+      "data": [
+        {
+          "text": "Quien es el ",
+          "userDefined": false
+        },
+        {
+          "text": "director",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "Matrix",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "87a74249-a7be-4045-9e12-440043c3d903",
+      "data": [
+        {
+          "text": "Será ",
+          "userDefined": false
+        },
+        {
+          "text": "una",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "buena",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " película ",
+          "userDefined": false
+        },
+        {
+          "text": "El Rey León",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "18a746af-cbcb-4f42-aed3-f56d0a1a3bda",
+      "data": [
+        {
+          "text": "De que se ",
+          "userDefined": false
+        },
+        {
+          "text": "trata",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " la ",
+          "userDefined": false
+        },
+        {
+          "text": "Rocky",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "75082947-de53-48f2-b8d2-270af96fd9e6",
+      "data": [
+        {
+          "text": "de que ",
+          "userDefined": false
+        },
+        {
+          "text": "trata",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": false
+        },
+        {
+          "text": " la ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "Blade Runner",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "423c8a0b-c6bd-4f18-ae12-84079fbb7438",
+      "data": [
+        {
+          "text": "De que se ",
+          "userDefined": false
+        },
+        {
+          "text": "trata",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "El Señor de los Anillos",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ff52a16d-def7-4fc8-b685-a010616f28b3",
+      "data": [
+        {
+          "text": "en que ",
+          "userDefined": false
+        },
+        {
+          "text": "año",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " se estrenó ",
+          "userDefined": false
+        },
+        {
+          "text": "Memento",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": " ?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b2c91e2f-7a85-478b-8211-facb5e436c48",
+      "data": [
+        {
+          "text": "Cual es el ",
+          "userDefined": false
+        },
+        {
+          "text": "genero",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "Chucky",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "59d15166-ef6f-4b47-99d6-891b7122d398",
+      "data": [
+        {
+          "text": "es ",
+          "userDefined": false
+        },
+        {
+          "text": "buena",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " película ",
+          "userDefined": false
+        },
+        {
+          "text": "El Padrino",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8cad2559-161e-4a81-b34f-4ac8f5001242",
+      "data": [
+        {
+          "text": "Que ",
+          "userDefined": false
+        },
+        {
+          "text": "actores",
+          "alias": "tipo_detalle",
+          "meta": "@tipo_detalle",
+          "userDefined": true
+        },
+        {
+          "text": " aparecen en ",
+          "userDefined": false
+        },
+        {
+          "text": "Titanic",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": true
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

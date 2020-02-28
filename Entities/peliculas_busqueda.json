@@ -1,0 +1,43 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "peliculas_busqueda",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Antigua",
+      "synonyms": [
+        "Antigua",
+        "antigua"
+      ]
+    },
+    {
+      "value": "Mejor",
+      "synonyms": [
+        "Mejor",
+        "best",
+        "mejor",
+        "top"
+      ]
+    },
+    {
+      "value": "Parte",
+      "synonyms": [
+        "Parte",
+        "part",
+        "parte"
+      ]
+    },
+    {
+      "value": "Ultima",
+      "synonyms": [
+        "Ultima",
+        "last",
+        "ultima"
+      ]
+    }
+  ],
+  "id": "77fc8094-3f20-4221-9529-19f1688f5ff4",
+  "isOverridable": false
+}

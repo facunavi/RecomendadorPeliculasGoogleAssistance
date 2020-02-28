@@ -1,0 +1,154 @@
+{
+  "id": "673e6059-3695-4bf4-857e-bafccc1439a0",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Hola, buen día, ¿me necesitas?",
+            "Hola, ¿en que puedo ayudarte?",
+            "Hola, que tal, ¿que puedo hacer por ti?",
+            "Hola, ¿me necesitas?",
+            "Hola, trataré de ayudarte en lo que pueda"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "fc638ce7-eac4-4902-b832-d53348a33841",
+      "data": [
+        {
+          "text": "Jarvis?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6fc5cc2b-293c-4ba1-9b7d-48f854be6d06",
+      "data": [
+        {
+          "text": "Hola Jarvis",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1cadda7c-08bf-48f8-bf24-e23b7ac67933",
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5b41ff5b-52f1-4d47-bb78-7fb360826ca1",
+      "data": [
+        {
+          "text": "alguien?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3d5d3546-257f-459f-b647-24202b1932a9",
+      "data": [
+        {
+          "text": "saludos",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "35871116-e345-48e5-9261-3eb549b74b01",
+      "data": [
+        {
+          "text": "hola",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "63661863-5f67-4523-b419-5748292b19e3",
+      "data": [
+        {
+          "text": "alo",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6b8a999d-1fc7-43c5-bbdb-a698092f960c",
+      "data": [
+        {
+          "text": "holaaa!",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

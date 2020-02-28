@@ -1,0 +1,21 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "recomendacion",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "recomendar",
+      "synonyms": [
+        "aconsejar",
+        "aconsejas",
+        "recomendar",
+        "sugerir",
+        "sugieres"
+      ]
+    }
+  ],
+  "id": "8564f972-4f1e-43b9-af60-1f49eaec7a35",
+  "isOverridable": false
+}

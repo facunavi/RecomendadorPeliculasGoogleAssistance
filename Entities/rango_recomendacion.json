@@ -1,0 +1,35 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "rango_recomendacion",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Mejores",
+      "synonyms": [
+        "Mejores",
+        "mejores",
+        "top ten"
+      ]
+    },
+    {
+      "value": "Populares",
+      "synonyms": [
+        "Populares",
+        "mas vistas",
+        "mas votadas",
+        "populares"
+      ]
+    },
+    {
+      "value": "Ultimas",
+      "synonyms": [
+        "Ultimas",
+        "ultimas"
+      ]
+    }
+  ],
+  "id": "1ef9b966-aaa9-4683-b137-d755e3a03bfb",
+  "isOverridable": false
+}

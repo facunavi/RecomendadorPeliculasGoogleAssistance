@@ -1,0 +1,62 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": false,
+  "name": "tipo_detalle",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Actor",
+      "synonyms": [
+        "Actor",
+        "actores",
+        "actrices",
+        "actriz"
+      ]
+    },
+    {
+      "value": "Año",
+      "synonyms": [
+        "Año",
+        "anno",
+        "ano",
+        "año",
+        "fecha"
+      ]
+    },
+    {
+      "value": "Calificacion",
+      "synonyms": [
+        "Calificacion",
+        "buena",
+        "mala"
+      ]
+    },
+    {
+      "value": "Detalle",
+      "synonyms": [
+        "Detalle",
+        "que tal",
+        "trama",
+        "trata"
+      ]
+    },
+    {
+      "value": "Director",
+      "synonyms": [
+        "Director",
+        "director"
+      ]
+    },
+    {
+      "value": "Genero",
+      "synonyms": [
+        "categoria",
+        "genero",
+        "tipo"
+      ]
+    }
+  ],
+  "id": "80beeafb-1993-406e-ab52-113acbbc2ae2",
+  "isOverridable": false
+}

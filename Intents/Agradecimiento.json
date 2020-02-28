@@ -1,0 +1,84 @@
+{
+  "id": "e59e7b58-765b-441b-a9a2-f12680c20d3b",
+  "name": "Agradecimiento",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "De nada!",
+            "Para eso estoy!",
+            "No hay por que agradecer"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ab172dfb-1c25-4009-8705-85525b69f28d",
+      "data": [
+        {
+          "text": "Te pasaste",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "984e1460-0cba-43e3-8438-a35c4e864fe1",
+      "data": [
+        {
+          "text": "Muchas",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " gracias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "41642d39-51ae-4c59-9cd5-a914ae5ea7d4",
+      "data": [
+        {
+          "text": "Gracias",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

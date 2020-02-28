@@ -1,0 +1,126 @@
+{
+  "id": "e580a4b5-5c2e-4892-9170-1d6f243b7498",
+  "name": "Otra pelicula",
+  "auto": true,
+  "contexts": [
+    "otra-pelicula"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b9553335-5ec9-4678-b476-170844be9021",
+          "required": false,
+          "dataType": "@peliculas",
+          "name": "peliculas",
+          "value": "$peliculas",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "683d49d8-c625-4cf9-bf43-7083705eaa81",
+      "data": [
+        {
+          "text": "El padrino",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e4c2c26b-a310-43e6-b7cd-deda8744b509",
+      "data": [
+        {
+          "text": "Rocky",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "566f938d-b604-4c12-8c70-423376336091",
+      "data": [
+        {
+          "text": "El Rey Leon",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e42a33fb-52a2-4b5a-b379-ca8c65936b03",
+      "data": [
+        {
+          "text": "Bambi",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "43efe752-e56c-4f45-93f7-c43ecaa267e0",
+      "data": [
+        {
+          "text": "Matrix",
+          "alias": "peliculas",
+          "meta": "@peliculas",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

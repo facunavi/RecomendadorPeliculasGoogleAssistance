@@ -1,0 +1,561 @@
+{
+  "id": "1f4f654f-3044-48d7-8521-c7fc161a8525",
+  "name": "Recomendar peliculas",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a512580c-e982-4926-a2fb-30e67d32339a",
+          "required": true,
+          "dataType": "@genero",
+          "name": "genero",
+          "value": "$genero",
+          "prompts": [
+            "Algún genero en particular?",
+            "Que categoría te interesa?",
+            "Si me indicas algún genero, puede ser mas fácil?",
+            "Genero?",
+            "Categoría?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        },
+        {
+          "id": "3eee5e6c-f9df-493d-8b40-5d2b13fbfbf8",
+          "required": false,
+          "dataType": "@pelicula_peliculas",
+          "name": "pelicula_peliculas",
+          "value": "$pelicula_peliculas",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "42e93603-ed95-48ab-a302-6259f2220d26",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "d15e5da8-05d4-44d9-a646-7ee30d7f94b9",
+          "required": false,
+          "dataType": "@tipo_recomendacion",
+          "name": "tipo_recomendacion",
+          "value": "$tipo_recomendacion",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "71ac21bb-cf7a-45dd-9db2-764e30527c36",
+      "data": [
+        {
+          "text": "que ",
+          "userDefined": false
+        },
+        {
+          "text": "películas",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " me ",
+          "userDefined": false
+        },
+        {
+          "text": "recomiendas",
+          "alias": "tipo_recomendacion",
+          "meta": "@tipo_recomendacion",
+          "userDefined": false
+        },
+        {
+          "text": " ver",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "20cb68c0-dc04-480d-a3ad-bd2140e74961",
+      "data": [
+        {
+          "text": "que ",
+          "userDefined": false
+        },
+        {
+          "text": "película",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " me ",
+          "userDefined": false
+        },
+        {
+          "text": "recomiendas",
+          "alias": "tipo_recomendacion",
+          "meta": "@tipo_recomendacion",
+          "userDefined": false
+        },
+        {
+          "text": " ver?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "eb29e6c2-a719-4168-93c1-fe94810f911c",
+      "data": [
+        {
+          "text": "recomiendame ",
+          "userDefined": false
+        },
+        {
+          "text": "una",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "película",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "624de60c-1fb4-433f-aa5a-f79d64a300f5",
+      "data": [
+        {
+          "text": "películas",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "vaqueros",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f990d328-cae0-43e7-9070-60a4bef89c02",
+      "data": [
+        {
+          "text": "alguna ",
+          "userDefined": false
+        },
+        {
+          "text": "película",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "romántica",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "48208172-b022-4cd2-9dbe-48cf6d92ff2e",
+      "data": [
+        {
+          "text": "quiero ver ",
+          "userDefined": false
+        },
+        {
+          "text": "una",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "accion",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a4e95d4c-ab54-4372-9f27-d012da3e4069",
+      "data": [
+        {
+          "text": "me recomiendas alguna ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "terror",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f421154a-e688-4256-bce9-6847dfcbfc84",
+      "data": [
+        {
+          "text": "me recomendarías ",
+          "userDefined": false
+        },
+        {
+          "text": "una",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f0981ea9-a88f-4750-a04f-10d7c67eba60",
+      "data": [
+        {
+          "text": "me gustaria ver ",
+          "userDefined": false
+        },
+        {
+          "text": "una",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": ", cual podria ser?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f677c74c-1a06-4557-878d-f3a5eee7af55",
+      "data": [
+        {
+          "text": "las mejores ",
+          "userDefined": false
+        },
+        {
+          "text": "peliculas",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "niños",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "18a66995-7eb1-4cc8-a337-ac42c3ec49ab",
+      "data": [
+        {
+          "text": "cual es la mejor ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "terror",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9e7c4e06-ba46-4ca3-9aa2-033598cea532",
+      "data": [
+        {
+          "text": "que ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " puedo ver ahora?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "439b2a80-0097-48b8-827e-2b38f484eb58",
+      "data": [
+        {
+          "text": "quiero ver ",
+          "userDefined": false
+        },
+        {
+          "text": "una",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pelicula",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "accion",
+          "alias": "genero",
+          "meta": "@genero",
+          "userDefined": false
+        },
+        {
+          "text": " ahora",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "027d8b0a-0e3b-4b35-a4bd-3ecfec5f87ae",
+      "data": [
+        {
+          "text": "cuales ",
+          "userDefined": false
+        },
+        {
+          "text": "películas",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " podría ver?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "266fe731-0775-4c56-a27a-c3b49a7af5e4",
+      "data": [
+        {
+          "text": "que ",
+          "userDefined": false
+        },
+        {
+          "text": "peliculas",
+          "alias": "pelicula_peliculas",
+          "meta": "@pelicula_peliculas",
+          "userDefined": false
+        },
+        {
+          "text": " me recomiendas?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
